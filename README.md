@@ -40,6 +40,10 @@ define( 'CS_ACTIVE_METABOX',     false ); // default true
 define( 'CS_ACTIVE_TAXONOMY',    false ); // default true
 define( 'CS_ACTIVE_SHORTCODE',   false ); // default true
 define( 'CS_ACTIVE_CUSTOMIZE',   false ); // default true
+
+## Filter Hooks
+for theme option
+add_filter( 'cs_framework_options', 'extra_cs_framework_options' );
 ```
 or take a look for change define base code from `/cs-framework/cs-framework.php` directly.
 
